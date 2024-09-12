@@ -71,5 +71,87 @@ footer{
     font-family: "Roboto Mono", monospace;
 }
 
+@media(max-width:375px)and (max-width:768px) {
+
+            
+            header{
+                width: 100%;
+            }
+
+            .image-wrapper{
+                    width:100%;
+                    float: none;
+                    display: block;
+                   
+            }
+            .contant-wrapper h1{
+                    font-size: medium;
+                    width: 100%;
+                    
+                    
+            }
+            .contant-wrapper p{
+                width: 100%;
+                font-size: medium;
+               
+            }
+
+            .contant-wrapper a{
+                width: 100%;
+                font-size: small;
+                padding: 10px 15px;
+              
+
+            }
+            main{
+                display: block;
+                width: 100%;
+            }
+        @media(min-width:1024px){
+                 
+            header{
+                width: 100%;
+            }
+
+            .image-wrapper{
+                    width:100%;
+                    float: none;
+                   
+            }
+            .contant-wrapper h1{
+                    font-size: medium;
+                    width: 100%;
+                    
+            }
+            .contant-wrapper p{
+                width: 100%;
+                font-size: medium;
+            }
+
+            .contant-wrapper a{
+                width: 100%;
+                font-size: small;
+
+            }
+        }
+
+          @media(min-width:1000px){
+                header{
+                    height: 20vh;
+                }
+
+                main{
+                    height: 60vh;
+                }
+
+                footer{
+                    height: 20vh;
+                }
+          }
+                        
+            }
+
+
+
 
 
